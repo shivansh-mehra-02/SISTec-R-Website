@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE DEPARTMENT</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* NAVBAR STARTS FROM HERE */
+        nav{
+            width: 100%;
+            height: 60px;
+            color: white;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .welcome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        /* Card styling for all faculty */
+        .faculty-card {
+            background-color: #fff;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+
+        .faculty-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hod-badge {
+            background-color: rgb(84, 103, 191);
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 4px;
+        }
+
+        .info {
+            padding: 10px;
+        }
+
+        .info h3 {
+            margin: 10px 0 5px;
+        }
+
+        .info p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .tag {
+            border: 1px solid #888;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f1f1f1;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        /* Faculties grid layout */
+        .faculty-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+
+        .faculties {
+            padding: 20px;
+        }
+
+        /* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+    </style>
+</head>
+
+
+
+<!-- Main body stars from here -->
+<body>
+
+    <nav>
+        <h2>Welcome to CSE-AIML Department!</h2>
+    </nav>
+
+    <div class="welcome">
+        <h2>HOD Ma'am Of CSE-AIML Department</h2>
+    </div>
+
+    <!-- HOD Section -->
+    <div class="hod-section">
+        <div class="faculty-card">
+            <img src="CSE-AIML-HOD-image.jpeg" alt="Ms. Priyanka Bhatele">
+            <div class="hod-badge">HOD</div>
+            <div class="info">
+                <h3>Ms. Priyanka Bhatele</h3>
+                <p>Assistant Professor</p>
+                <div class="tags">
+                    <div class="tag">SISTec-RB</div>
+                    <div class="tag">CSE-AIML</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h2>Faculties Of CSE-AIML Department</h2>
+    </div>
+
+    <!-- Faculty Section -->
+    <div class="faculties">
+
+        <div class="faculty-grid">
+
+            <!-- 1st Faculty Card -->
+            <div class="faculty-card">
+                <img src="aMr. Hritik Rai Saxena.jpg" alt="Mr. Hritik Rai Saxena">
+                <div class="info">
+                    <h3>Mr. Hritik Rai Saxena</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE-AIML</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd Faculty Card -->
+            <div class="faculty-card">
+                <img src="aMs. Namrata Shrivastava.jpg" alt="Ms. Namrata Shrivastava">
+                <div class="info">
+                    <h3>Ms. Namrata Shrivastava</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE-AIML</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3nd Faculty Card -->
+            <div class="faculty-card">
+                <img src="aMs. Rekha Meena.jpg" alt="Ms. Rekha Meena">
+                <div class="info">
+                    <h3>Ms. Rekha Meena</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE-AIML</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sagar Institute. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE DEPARTMENT</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* NAVBAR STARTS FROM HERE */
+        nav{
+            width: 100%;
+            height: 60px;
+            color: white;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .welcome {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        /* Card styling for all faculty */
+        .faculty-card {
+            background-color: #fff;
+            width: 250px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            margin: auto;
+            position: relative;
+        }
+
+        .faculty-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .hod-badge {
+            background-color: rgb(84, 103, 191);
+            color: white;
+            padding: 5px 10px;
+            font-size: 14px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 4px;
+        }
+
+        .info {
+            padding: 10px;
+        }
+
+        .info h3 {
+            margin: 10px 0 5px;
+        }
+
+        .info p {
+            margin: 5px 0;
+            color: #333;
+        }
+
+        .tag {
+            border: 1px solid #888;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            background-color: #f1f1f1;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        /* Faculties grid layout */
+        .faculty-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding-bottom: 100px;
+        }
+
+        .faculties {
+            padding: 20px;
+        }
+
+        /* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+  margin-top: 40px;
+  width: 100%;
+}
+
+    </style>
+</head>
+
+
+
+<!-- Main body stars from here -->
+<body>
+
+    <nav>
+        <h2>Welcome to CSE Department!</h2>
+    </nav>
+
+    <div class="welcome">
+        <h2>HOD Sir Of CSE Department</h2>
+    </div>
+
+    <!-- HOD Section -->
+    <div class="hod-section">
+        <div class="faculty-card">
+            <img src="CSE-HOD-image.jpeg" alt="Mr. Ajit Kumar Shrivastava">
+            <div class="hod-badge">HOD</div>
+            <div class="info">
+                <h3>Mr. Ajit Kumar Shrivastava</h3>
+                <p>Assistant Professor</p>
+                <div class="tags">
+                    <div class="tag">SISTec-RB</div>
+                    <div class="tag">CSE</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="welcome">
+        <h2>Faculties Of CSE Department</h2>
+    </div>
+
+    <!-- Faculty Section -->
+    <div class="faculties">
+
+        <div class="faculty-grid">
+
+            <!-- 1st Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Sitaram Patel.jpg" alt="Mr. Sitaram Patel">
+                <div class="info">
+                    <h3>Mr. Sitaram Patel</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Rohit Bansal.jpeg" alt="Mr. Rohit Bansal">
+                <div class="info">
+                    <h3>Mr. Rohit Bansal</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Himanshu Yadav.jpeg" alt="Mr. Himanshu Yadav">
+                <div class="info">
+                    <h3>Mr. Himanshu Yadav</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+                <div class="faculty-grid">
+
+            <!-- 4th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Bhavana Verma.jpg" alt="Ms. Bhavana Verma">
+                <div class="info">
+                    <h3>Ms. Bhavana Verma</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Martina Martin.jpg" alt="Ms. Martina Martin">
+                <div class="info">
+                    <h3>Ms. Martina Martin</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Khushboo Bhardwaj.jpeg" alt=""Ms. Khushboo Bhardwaj">
+                <div class="info">
+                    <h3>Ms. Khushboo Bhardwajr</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+                </div>
+
+                <div class="faculty-grid">
+
+            <!-- 7th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Abhijit Dwivedi.jpg" alt="Mr. Abhijit Dwivedi">
+                <div class="info">
+                    <h3>Mr. Abhijit Dwivedi</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 8th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Ajay Kumar Sahu.jpg" alt="Mr. Ajay Kumar Sahu">
+                <div class="info">
+                    <h3>Mr. Ajay Kumar Sahu</h3>
+                    <p>Associate Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 9th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Mr. Anuj Chanderia Jain.jpg" alt="Mr. Anuj Chanderia Jain">
+                <div class="info">
+                    <h3>Mr. Anuj Chanderia Jain</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+                </div>
+
+                <div class="faculty-grid">
+
+            <!-- 10th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Anuradha Mangal.jpg" alt="Ms. Anuradha Mangal">
+                <div class="info">
+                    <h3>Ms. Anuradha Mangal</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 11th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. G. Sowjanya.jpeg" alt="Ms. G. Sowjanya">
+                <div class="info">
+                    <h3>Ms. G. Sowjanya</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 12 Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Meenakshi Patel.jpg" alt="Ms. Meenakshi Patel">
+                <div class="info">
+                    <h3>Ms. Meenakshi Patel</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+                </div>
+
+                <div class="faculty-grid">
+
+            <!-- 13th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Priyanka Saxena.jpg" alt="Ms. Priyanka Saxena">
+                <div class="info">
+                    <h3>Ms. Priyanka Saxena</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 14th Faculty Card -->
+            <div class="faculty-card">
+                <img src="Ms. Sadaf Hussaini.jpeg" alt="Ms. Sadaf Hussaini">
+                <div class="info">
+                    <h3>Ms. Sadaf Hussaini</h3>
+                    <p>Assistant Professor</p>
+                    <div class="tags">
+                        <div class="tag">SISTec-RB</div>
+                        <div class="tag">CSE</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Add more faculty cards here -->
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sagar Institute. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

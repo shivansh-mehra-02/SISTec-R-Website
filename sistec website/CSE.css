@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.CSE-HOD-content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+.CSE-HOD-content h2,h3, img{
+    padding-top: 20px;
+}
+
+
